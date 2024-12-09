@@ -22,4 +22,4 @@ class Basepage:
 
     def hrm_click_visibility(self, locator):
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
-# BASEPAGE
+
